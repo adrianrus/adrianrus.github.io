@@ -1,0 +1,59 @@
+/* Style for modal */
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Style for modal content */
+#modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80%;
+  overflow-y: auto;
+  text-align: center;
+}
+
+/* Style to center-align form body */
+#form-body {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+  color: cornflowerblue;
+}
+#text-display{
+  text-align: center;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+#input-error {
+  display: none;
+  color: red;
+}

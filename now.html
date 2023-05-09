@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Now do this clone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Now do this</h1>
+
+<form id="text-form">
+  <div id="form-body">
+    <textarea id="input-field" placeholder="Enter your task(s)" rows="5" cols="50" required></textarea>
+    <br /><br />
+    <span id="input-error">Please enter a task</span>
+    <br />
+    <button type="button" onclick="execute()">Start</button>
+  </div>
+</form>
+
+<div id="modal">
+  <div id="modal-content">
+    <h2>Now do this</h2>
+    <h1 id="text-display"></h1>
+    <button onclick="closeModal()">Done</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</html>
+
+
